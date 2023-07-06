@@ -23,6 +23,11 @@
     "neutral-variant": {
       "value": "#2E2E2C",
       "type": "color"
+    },
+    "mike": {
+      "value": "#ff0000",
+      "type": "color",
+      "description": "mike test"
     }
   },
   "key-dimension": {
