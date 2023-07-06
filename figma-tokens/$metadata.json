@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "key variables",
+    "tailwind (config)",
+    "tailwind (utilities)",
+    "catalyst",
+    "old schemes"
+  ]
+}
