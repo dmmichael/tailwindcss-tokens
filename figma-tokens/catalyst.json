@@ -132,5 +132,12 @@
         }
       }
     }
+  },
+  "border-width": {
+    "border-3": {
+      "value": "{spacing.1} /4*3",
+      "type": "borderWidth",
+      "description": "3px - This doesnt exist as an option in tailwind so its a custom value"
+    }
   }
 }

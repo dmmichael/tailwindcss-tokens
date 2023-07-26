@@ -1,45 +1,45 @@
 {
-  "borderRadius": {
-    "none": {
+  "border-radius": {
+    "rounded-none": {
       "value": "{spacing.0}",
       "type": "borderRadius"
     },
-    "sm": {
+    "rounded-sm": {
       "value": "{spacing.0ᐧ5}",
       "type": "borderRadius",
       "description": "2px @ 1dpr"
     },
-    "DEFAULT": {
+    "rounded": {
       "value": "{spacing.1}",
       "type": "borderRadius",
       "description": "4px @ 1dpr"
     },
-    "md": {
+    "rounded-md": {
       "value": "{spacing.1ᐧ5}",
       "type": "borderRadius",
       "description": "6px @ 1dpr"
     },
-    "lg": {
+    "rounded-lg": {
       "value": "{spacing.2}",
       "type": "borderRadius",
       "description": "8px @ 1dpr"
     },
-    "xl": {
+    "rounded-xl": {
       "value": "{spacing.3}",
       "type": "borderRadius",
       "description": "12px @ 1dpr"
     },
-    "2xl": {
+    "rounded-2xl": {
       "value": "{spacing.4}",
       "type": "borderRadius",
       "description": "16px @ 1dpr"
     },
-    "3xl": {
+    "rounded-3xl": {
       "value": "{spacing.6}",
       "type": "borderRadius",
       "description": "24px @ 1dpr"
     },
-    "full": {
+    "rounded-full": {
       "value": "9999px",
       "type": "borderRadius"
     }
@@ -3335,6 +3335,33 @@
     "black": {
       "value": "900",
       "type": "fontWeights"
+    }
+  },
+  "border-width": {
+    "border-0": {
+      "value": "{spacing.0}",
+      "type": "borderWidth",
+      "description": "/* 0px */"
+    },
+    "border": {
+      "value": "{spacing.0ᐧ5} / 2",
+      "type": "borderWidth",
+      "description": "/* 1px */"
+    },
+    "border-2": {
+      "value": "{spacing.0ᐧ5}",
+      "type": "borderWidth",
+      "description": "/* 2px */"
+    },
+    "border-4": {
+      "value": "{spacing.1}",
+      "type": "borderWidth",
+      "description": "/* 4px */"
+    },
+    "border-8": {
+      "value": "{spacing.2}",
+      "type": "borderWidth",
+      "description": "/* 8px */"
     }
   }
 }
