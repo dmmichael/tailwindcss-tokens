@@ -3221,7 +3221,7 @@
         "lineHeight": "1.5rem * {key-dimension.dpr}"
       },
       "type": "typography",
-      "description": "14px & 20px @ 1dpr"
+      "description": "16px & 24px @ 1dpr"
     },
     "text-lg": {
       "value": {

@@ -87,7 +87,8 @@
       "catalyst": "enabled",
       "tailwind (utilities)": "enabled",
       "tailwind (config)": "enabled",
-      "key variables": "enabled"
+      "key variables": "enabled",
+      "button": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:59:1058",
     "$figmaModeId": "59:6",
