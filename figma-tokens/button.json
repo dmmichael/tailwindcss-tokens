@@ -90,20 +90,6 @@
         "type": "color"
       }
     },
-    "icon": {
-      "sm": {
-        "value": "{spacing.4}",
-        "type": "sizing"
-      },
-      "md": {
-        "value": "{spacing.4}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{spacing.5}",
-        "type": "sizing"
-      }
-    },
     "on-filled": {
       "default": {
         "value": "{on-primary.default}",
