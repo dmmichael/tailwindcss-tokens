@@ -209,5 +209,73 @@
         }
       }
     }
+  },
+  "surface": {
+    "default": {
+      "value": "{palettes.neutral.50}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{palettes.neutral.50}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.04",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{palettes.neutral.50}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
+  },
+  "on-surface": {
+    "default": {
+      "value": "{palettes.neutral.600}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
   }
 }

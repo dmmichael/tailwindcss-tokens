@@ -1,12 +1,12 @@
 {
-  "button": {
+  "icon button": {
     "border-radius": {
       "value": "{border-radius.rounded}",
       "type": "borderRadius"
     },
     "sm": {
       "px": {
-        "value": "{padding.px-4}",
+        "value": "{padding.px-2}",
         "type": "spacing",
         "description": "x-padding for small buttons"
       },
@@ -14,16 +14,11 @@
         "value": "{padding.px-2}",
         "type": "spacing",
         "description": "y-padding for small buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing",
-        "description": "spacing between items"
       }
     },
     "md": {
       "px": {
-        "value": "{padding.px-5}",
+        "value": "{padding.px-2ᐧ5}",
         "type": "spacing",
         "description": "x-padding for medium buttons"
       },
@@ -31,16 +26,11 @@
         "value": "{padding.px-2ᐧ5}",
         "type": "spacing",
         "description": "y-padding for medium buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing",
-        "description": "spacing between items"
       }
     },
     "lg": {
       "px": {
-        "value": "{padding.px-5}",
+        "value": "{padding.px-3}",
         "type": "spacing",
         "description": "x-padding for large buttons"
       },
@@ -48,24 +38,6 @@
         "value": "{padding.px-3}",
         "type": "spacing",
         "description": "y-padding for large buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing"
-      }
-    },
-    "label": {
-      "sm": {
-        "value": "{font-size.text-sm}",
-        "type": "typography"
-      },
-      "md": {
-        "value": "{font-size.text-sm}",
-        "type": "typography"
-      },
-      "lg": {
-        "value": "{font-size.text-base}",
-        "type": "typography"
       }
     },
     "filled": {
@@ -90,20 +62,6 @@
         "type": "color"
       }
     },
-    "icon": {
-      "sm": {
-        "value": "{spacing.4}",
-        "type": "sizing"
-      },
-      "md": {
-        "value": "{spacing.4}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{spacing.5}",
-        "type": "sizing"
-      }
-    },
     "on-filled": {
       "default": {
         "value": "{on-primary.default}",
@@ -111,45 +69,6 @@
       },
       "disabled": {
         "value": "{palettes.neutral.400}",
-        "type": "color"
-      }
-    },
-    "focus-ring": {
-      "value": {
-        "color": "{primary.outline}",
-        "width": "3"
-      },
-      "type": "border"
-    },
-    "outlined": {
-      "default": {
-        "value": "{on-primary.default}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{on-primary.tint-low}",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "{on-primary.tint-medium}",
-        "type": "color"
-      },
-      "focus": {
-        "value": "{on-primary.tint-low}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{palettes.neutral.50}",
-        "type": "color"
-      }
-    },
-    "on-outlined": {
-      "default": {
-        "value": "{primary.default}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{palettes.neutral.200}",
         "type": "color"
       }
     },
@@ -175,6 +94,13 @@
         "type": "color"
       }
     },
+    "focus-ring": {
+      "value": {
+        "color": "{primary.outline}",
+        "width": "3"
+      },
+      "type": "border"
+    },
     "on-tonal": {
       "default": {
         "value": "{on-primary-container.default}",
@@ -185,9 +111,9 @@
         "type": "color"
       }
     },
-    "text": {
+    "standard": {
       "default": {
-        "value": "{on-primary.default}",
+        "value": "{surface.default}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -200,16 +126,25 @@
         }
       },
       "hover": {
-        "value": "{on-primary.tint-low}",
+        "value": "{surface.default}",
         "type": "color"
       },
       "pressed": {
-        "value": "{on-primary.tint-medium}",
+        "value": "{surface.tint-low}",
         "type": "color"
       },
       "focus": {
-        "value": "{on-primary.tint-low}",
-        "type": "color"
+        "value": "{surface.default}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
       },
       "disabled": {
         "value": "{palettes.neutral.50}",
@@ -225,9 +160,68 @@
         }
       }
     },
-    "on-text": {
+    "on-standard": {
       "default": {
-        "value": "{primary.default}",
+        "value": "{on-surface.default}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{palettes.neutral.200}",
+        "type": "color"
+      }
+    },
+    "outlined": {
+      "default": {
+        "value": "{surface.default}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "hover": {
+        "value": "{surface.default}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{surface.tint-low}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{surface.default}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "value": "{palettes.neutral.50}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "on-outlined": {
+      "default": {
+        "value": "{on-surface.default}",
         "type": "color"
       },
       "disabled": {
