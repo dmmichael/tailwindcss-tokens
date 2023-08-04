@@ -140,42 +140,6 @@
       "description": "3px - This doesnt exist as an option in tailwind so its a custom value"
     }
   },
-  "button": {
-    "filled": {
-      "md": {
-        "icon-size": {
-          "value": {
-            "height": "{spacing.4}",
-            "width": "{spacing.4}"
-          },
-          "type": "composition"
-        },
-        "icon-fill": {
-          "value": {
-            "fill": "{on-primary.default}"
-          },
-          "type": "composition"
-        },
-        "label": {
-          "value": {
-            "typography": "{font-size.text-sm}",
-            "fill": "{on-primary.default}"
-          },
-          "type": "composition"
-        },
-        "default": {
-          "value": {
-            "paddingTop": "{padding.py-2ᐧ5}",
-            "paddingBottom": "{padding.py-2ᐧ5}",
-            "itemSpacing": "{spacing.2}",
-            "borderRadius": "{border-radius.rounded}",
-            "fill": "{primary.default}"
-          },
-          "type": "composition"
-        }
-      }
-    }
-  },
   "on-primary-container": {
     "default": {
       "value": "{key-colors.primary}",
