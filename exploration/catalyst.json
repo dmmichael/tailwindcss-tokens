@@ -1,0 +1,281 @@
+{
+  "primary": {
+    "default": {
+      "value": "{key-colors.primary}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-high": {
+      "value": "{primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": ".24",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "outline": {
+      "value": "{palettes.primary.300}",
+      "type": "color"
+    }
+  },
+  "on-primary": {
+    "default": {
+      "value": "{palettes.primary.0}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{on-primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{key-colors.primary}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{on-primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{key-colors.primary}"
+          }
+        }
+      }
+    },
+    "tint-high": {
+      "value": "{on-primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.24",
+            "space": "lch",
+            "color": "{key-colors.primary}"
+          }
+        }
+      }
+    }
+  },
+  "primary-container": {
+    "default": {
+      "value": "{palettes.primary.100}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{primary-container.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.04",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{primary-container.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
+  },
+  "border-width": {
+    "border-3": {
+      "value": "{spacing.1} /4*3",
+      "type": "borderWidth",
+      "description": "3px - This doesnt exist as an option in tailwind so its a custom value"
+    }
+  },
+  "button": {
+    "filled": {
+      "md": {
+        "icon-size": {
+          "value": {
+            "height": "{spacing.4}",
+            "width": "{spacing.4}"
+          },
+          "type": "composition"
+        },
+        "icon-fill": {
+          "value": {
+            "fill": "{on-primary.default}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typography": "{font-size.text-sm}",
+            "fill": "{on-primary.default}"
+          },
+          "type": "composition"
+        },
+        "default": {
+          "value": {
+            "paddingTop": "{padding.py-2ᐧ5}",
+            "paddingBottom": "{padding.py-2ᐧ5}",
+            "itemSpacing": "{spacing.2}",
+            "borderRadius": "{border-radius.rounded}",
+            "fill": "{primary.default}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "on-primary-container": {
+    "default": {
+      "value": "{key-colors.primary}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{primary.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
+  },
+  "surface": {
+    "default": {
+      "value": "{palettes.neutral.50}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{palettes.neutral.50}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.04",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{palettes.neutral.50}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
+  },
+  "on-surface": {
+    "default": {
+      "value": "{palettes.neutral.600}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{palettes.primary.1000}"
+          }
+        }
+      }
+    }
+  }
+}
