@@ -537,7 +537,7 @@
       "50": {
         "value": "#ebefef",
         "type": "color",
-        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
+        "description": "Closest to key value - Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
       },
       "100": {
         "value": "#dfe2e2",
