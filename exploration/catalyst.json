@@ -1,7 +1,7 @@
 {
   "primary": {
     "default": {
-      "value": "{key-colors.primary}",
+      "value": "{key-colors.brand-color}",
       "type": "color"
     },
     "tint-low": {
@@ -178,7 +178,7 @@
   },
   "on-primary-container": {
     "default": {
-      "value": "{key-colors.primary}",
+      "value": "{key-colors.brand-color}",
       "type": "color"
     },
     "tint-low": {

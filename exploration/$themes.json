@@ -15,9 +15,6 @@
       "primary-container.default": "S:575bd1b050ae5a2a75d65338d92c6ad98f42a1ef,",
       "primary-container.tint-low": "S:d6565a7bdfe31bb115070843aa0924562ca3d092,",
       "primary-container.tint-medium": "S:48aab508453eaed3eb088378a446747f5af21e6a,",
-      "key-colors.primary": "S:a0f38f7e1ff227b6dd434e8792fec0b21e3ecd8f,",
-      "key-colors.secondary": "S:09c19565c65e465ce37ba5793c36a2ab79291293,",
-      "key-colors.tertiary": "S:f8e67d380f0d9ef21ea49084770e1c5de7c0a7c1,",
       "key-colors.error": "S:65eb63b4c226bf48117830016b52ebe6fbdfc9bc,",
       "key-colors.neutral": "S:23ccc982a297f7feceb145fe9f07ae9dbb96ebce,",
       "key-colors.neutral-variant": "S:37df846d25f3d68734e4130d692c5b4c3d2ab8a5,",
@@ -69,7 +66,6 @@
       "palettes.error.800": "S:091ae3d83f43de52c8f40a63225792ac95117308,",
       "palettes.error.900": "S:c67d96cf0bd3871d079e5b05bed7b6c8bbb2d7bf,",
       "palettes.error.1000": "S:40c35963a5705735916fd10ae4fa2b56dfb31b2f,",
-      "palettes.neutral.0": "S:b0fce53ecf9b32f3bd11dd3fb050516abbcaef3c,",
       "palettes.neutral.50": "S:6ce0c4fdb321cdbd3b378c5e8b2fc0b456f5994b,",
       "palettes.neutral.100": "S:4da3767015216d753a6906b53e29fe659a7f0fcb,",
       "palettes.neutral.200": "S:ea1e5e1b287d92550bf8db7f0c5947daae2a52d2,",
@@ -81,7 +77,9 @@
       "palettes.neutral.800": "S:a8102dbdf6a007c2c22994d6a46b47bfc6a58c65,",
       "palettes.neutral.900": "S:22c066d1905e9b0d902eba85f09e242ea2b2373e,",
       "palettes.neutral.1000": "S:a63d6736225b59f10dacc08b1ea7b1dcaaa03fca,",
-      "palettes.primary.test": "S:3bca6dac6f8fe26189bc875c85769e8b4574c246,"
+      "palettes.primary.test": "S:3bca6dac6f8fe26189bc875c85769e8b4574c246,",
+      "key-colors.brand-color": "S:a0f38f7e1ff227b6dd434e8792fec0b21e3ecd8f,",
+      "neutral.0": "S:b0fce53ecf9b32f3bd11dd3fb050516abbcaef3c,"
     },
     "selectedTokenSets": {
       "catalyst": "enabled",
@@ -106,9 +104,6 @@
       "primary-container.default": "VariableID:59:1068",
       "primary-container.tint-low": "VariableID:59:1069",
       "primary-container.tint-medium": "VariableID:59:1070",
-      "key-colors.primary": "VariableID:59:1071",
-      "key-colors.secondary": "VariableID:59:1072",
-      "key-colors.tertiary": "VariableID:59:1073",
       "key-colors.error": "VariableID:59:1074",
       "key-colors.neutral": "VariableID:59:1075",
       "key-colors.neutral-variant": "VariableID:59:1076",
@@ -160,7 +155,6 @@
       "palettes.error.800": "VariableID:59:1122",
       "palettes.error.900": "VariableID:59:1123",
       "palettes.error.1000": "VariableID:59:1124",
-      "palettes.neutral.0": "VariableID:59:1125",
       "palettes.neutral.50": "VariableID:59:1126",
       "palettes.neutral.100": "VariableID:59:1127",
       "palettes.neutral.200": "VariableID:59:1128",
@@ -172,7 +166,9 @@
       "palettes.neutral.800": "VariableID:59:1134",
       "palettes.neutral.900": "VariableID:59:1135",
       "palettes.neutral.1000": "VariableID:59:1136",
-      "palettes.primary.test": "VariableID:59:1137"
+      "palettes.primary.test": "VariableID:59:1137",
+      "key-colors.brand-color": "VariableID:59:1071",
+      "neutral.0": "VariableID:59:1125"
     }
   }
 ]

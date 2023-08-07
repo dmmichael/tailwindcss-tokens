@@ -80,7 +80,7 @@
         }
       },
       "500": {
-        "value": "{key-colors.primary}",
+        "value": "{key-colors.brand-color}",
         "type": "color",
         "description": "This is manually adjusted to match hsl with l = 50%",
         "$extensions": {
@@ -153,339 +153,447 @@
             "modify": {
               "type": "darken",
               "value": "1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "600-copy": {
+        "value": "{palettes.primary.500}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "700-copy": {
+        "value": "{palettes.primary.500}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
               "space": "hsl"
             }
           }
         }
       },
       "test": {
-        "value": "{key-colors.primary}",
+        "value": "{key-colors.brand-color}",
         "type": "color",
         "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": ".185",
+              "value": ".098",
               "space": "lch"
             }
           }
         }
       }
     },
-    "secondary": {
+    "brand": {
       "0": {
-        "value": "{palettes.secondary.500}",
+        "value": "{palettes.brand.500}",
         "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "lighten",
               "value": "1",
-              "space": "hsl"
+              "space": "lch"
             }
           }
         }
       },
       "50": {
-        "value": "{palettes.secondary.500}",
+        "value": "#def2f0",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.9",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
       },
       "100": {
-        "value": "{palettes.secondary.500}",
+        "value": "#c4e9e5",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.8",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 14.66:1 against background #ffffff"
       },
       "200": {
-        "value": "{palettes.secondary.500}",
+        "value": "#8ad3cb",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.6",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 30.65:1 against background #ffffff"
       },
       "300": {
-        "value": "{palettes.secondary.500}",
+        "value": "#54bab0",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.4",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 45.31:1 against background #ffffff"
       },
       "400": {
-        "value": "{palettes.secondary.500}",
+        "value": "#28a096",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.2",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Closest to key color - Do not use for UI elements or text. WCAG 3 (APCA) contrast is 58.64:1 against background #ffffff"
       },
       "500": {
-        "value": "{key-colors.secondary}",
+        "value": "#00847c",
         "type": "color",
-        "description": "This is manually adjusted to match hsl with l = 50%",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.166",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.11:1 against background #ffffff"
       },
       "600": {
-        "value": "{palettes.secondary.500}",
+        "value": "#006861",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.2",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 82.19:1 against background #ffffff"
       },
       "700": {
-        "value": "{palettes.secondary.500}",
+        "value": "#004e49",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.4",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 91.47:1 against background #ffffff"
       },
       "800": {
-        "value": "{palettes.secondary.500}",
+        "value": "#003531",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.6",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 99.55:1 against background #ffffff"
       },
       "900": {
-        "value": "{palettes.secondary.500}",
+        "value": "#001e1b",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.8",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 104.12:1 against background #ffffff"
       },
       "1000": {
-        "value": "{palettes.secondary.500}",
+        "value": "{palettes.brand.500}",
         "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
               "value": "1",
-              "space": "hsl"
+              "space": "lch"
             }
           }
         }
       }
     },
-    "tertiary": {
+    "aqua-lime": {
       "0": {
-        "value": "{palettes.tertiary.500}",
+        "value": "{palettes.aqua-lime.500}",
         "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "lighten",
               "value": "1",
-              "space": "hsl"
+              "space": "lch"
             }
           }
         }
       },
       "50": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#aeffdb",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.9",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
       },
       "100": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#5afdac",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.8",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Closest to Key Color - Do not use for UI elements or text. WCAG 3 (APCA) contrast is 14.66:1 against background #ffffff"
       },
       "200": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#3fdf92",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.6",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 30.65:1 against background #ffffff"
       },
       "300": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#2ec17d",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.4",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 45.31:1 against background #ffffff"
       },
       "400": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#20a468",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.2",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 58.64:1 against background #ffffff"
       },
       "500": {
-        "value": "{key-colors.tertiary}",
+        "value": "#158654",
         "type": "color",
-        "description": "This is manually adjusted to match hsl with l = 50%",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.2815",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.11:1 against background #ffffff"
       },
       "600": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#0c6a41",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.2",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 82.19:1 against background #ffffff"
       },
       "700": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#065030",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.4",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 91.47:1 against background #ffffff"
       },
       "800": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#03361f",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.6",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 99.55:1 against background #ffffff"
       },
       "900": {
-        "value": "{palettes.tertiary.500}",
+        "value": "#011e0f",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "darken",
-              "value": "0.8",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 104.12:1 against background #ffffff"
       },
       "1000": {
-        "value": "{palettes.tertiary.500}",
+        "value": "{palettes.aqua-lime.500}",
         "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "darken",
               "value": "1",
-              "space": "hsl"
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "slate-blue": {
+      "0": {
+        "value": "{palettes.slate-blue.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "#eceef2",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
+      },
+      "100": {
+        "value": "#dee2e9",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 14.66:1 against background #ffffff"
+      },
+      "200": {
+        "value": "#bec6d3",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 30.65:1 against background #ffffff"
+      },
+      "300": {
+        "value": "#a0acbe",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 45.31:1 against background #ffffff"
+      },
+      "400": {
+        "value": "#8392a9",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 58.64:1 against background #ffffff"
+      },
+      "500": {
+        "value": "#677893",
+        "type": "color",
+        "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.11:1 against background #ffffff"
+      },
+      "600": {
+        "value": "#4b5e7b",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 82.19:1 against background #ffffff"
+      },
+      "700": {
+        "value": "#354764",
+        "type": "color",
+        "description": "Closest to key value - Color can be used for small text. WCAG 3 (APCA) contrast is 91.47:1 against background #ffffff"
+      },
+      "800": {
+        "value": "#203049",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 99.55:1 against background #ffffff"
+      },
+      "900": {
+        "value": "#0f1a2c",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 104.12:1 against background #ffffff"
+      },
+      "1000": {
+        "value": "{palettes.slate-blue.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "coral-red": {
+      "0": {
+        "value": "{palettes.coral-red.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "#ffe9e9",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
+      },
+      "100": {
+        "value": "#ffd9d9",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 14.66:1 against background #ffffff"
+      },
+      "200": {
+        "value": "#ffb1b3",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 30.65:1 against background #ffffff"
+      },
+      "300": {
+        "value": "#ff868d",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 45.31:1 against background #ffffff"
+      },
+      "400": {
+        "value": "#e9646e",
+        "type": "color",
+        "description": "Closest to key value - Do not use for UI elements or text. WCAG 3 (APCA) contrast is 58.64:1 against background #ffffff"
+      },
+      "500": {
+        "value": "#c54d57",
+        "type": "color",
+        "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.11:1 against background #ffffff"
+      },
+      "600": {
+        "value": "#9f3942",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 82.19:1 against background #ffffff"
+      },
+      "700": {
+        "value": "#7a2830",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 91.47:1 against background #ffffff"
+      },
+      "800": {
+        "value": "#54181e",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 99.55:1 against background #ffffff"
+      },
+      "900": {
+        "value": "#310b0e",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 104.12:1 against background #ffffff"
+      },
+      "1000": {
+        "value": "{palettes.coral-red.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "pale-silver": {
+      "0": {
+        "value": "{palettes.pale-silver.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "#ebefef",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 1:1 against background #ffffff"
+      },
+      "100": {
+        "value": "#dfe2e2",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 14.66:1 against background #ffffff"
+      },
+      "200": {
+        "value": "#c3c6c6",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 30.65:1 against background #ffffff"
+      },
+      "300": {
+        "value": "#a8abab",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 45.31:1 against background #ffffff"
+      },
+      "400": {
+        "value": "#8f9191",
+        "type": "color",
+        "description": "Do not use for UI elements or text. WCAG 3 (APCA) contrast is 58.64:1 against background #ffffff"
+      },
+      "500": {
+        "value": "#757777",
+        "type": "color",
+        "description": "Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.11:1 against background #ffffff"
+      },
+      "600": {
+        "value": "#5d5e5e",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 82.19:1 against background #ffffff"
+      },
+      "700": {
+        "value": "#464747",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 91.47:1 against background #ffffff"
+      },
+      "800": {
+        "value": "#2f3030",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 99.55:1 against background #ffffff"
+      },
+      "900": {
+        "value": "#1b1b1b",
+        "type": "color",
+        "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 104.12:1 against background #ffffff"
+      },
+      "1000": {
+        "value": "{palettes.pale-silver.500}",
+        "type": "color",
+        "description": "49 L is the ideal (based on an expert in color from facebook - Ashley Seto - Lead Product Designer, Meta",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "lch"
             }
           }
         }

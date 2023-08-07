@@ -1,15 +1,23 @@
 {
   "key-colors": {
-    "primary": {
+    "brand-color": {
       "value": "#2AA298",
       "type": "color"
     },
-    "secondary": {
-      "value": "#2362A9",
+    "aqua-lime": {
+      "value": "#5CFFAD",
       "type": "color"
     },
-    "tertiary": {
-      "value": "#FF7764",
+    "slate-blue": {
+      "value": "#374A67",
+      "type": "color"
+    },
+    "coral-red": {
+      "value": "#EE6972",
+      "type": "color"
+    },
+    "pale-silver": {
+      "value": "#EFF3F3",
       "type": "color"
     },
     "error": {
