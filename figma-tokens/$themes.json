@@ -89,8 +89,7 @@
       "key-variables": "enabled",
       "tailwind-config": "enabled",
       "tailwind-utilities": "enabled",
-      "icon-button": "enabled",
-      "text-input": "disabled"
+      "icon-button": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:59:1058",
     "$figmaModeId": "59:6",
