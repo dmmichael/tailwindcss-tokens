@@ -4,56 +4,6 @@
       "value": "{border-radius.rounded}",
       "type": "borderRadius"
     },
-    "sm": {
-      "px": {
-        "value": "{padding.px-4}",
-        "type": "spacing",
-        "description": "x-padding for small buttons"
-      },
-      "py": {
-        "value": "{padding.px-2}",
-        "type": "spacing",
-        "description": "y-padding for small buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing",
-        "description": "spacing between items"
-      }
-    },
-    "md": {
-      "px": {
-        "value": "{padding.px-5}",
-        "type": "spacing",
-        "description": "x-padding for medium buttons"
-      },
-      "py": {
-        "value": "{padding.px-2ᐧ5}",
-        "type": "spacing",
-        "description": "y-padding for medium buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing",
-        "description": "spacing between items"
-      }
-    },
-    "lg": {
-      "px": {
-        "value": "{padding.px-5}",
-        "type": "spacing",
-        "description": "x-padding for large buttons"
-      },
-      "py": {
-        "value": "{padding.px-3}",
-        "type": "spacing",
-        "description": "y-padding for large buttons"
-      },
-      "item-spacing": {
-        "value": "{spacing.2}",
-        "type": "spacing"
-      }
-    },
     "label": {
       "sm": {
         "value": "{font-size.text-sm}",
@@ -219,6 +169,63 @@
       "disabled": {
         "value": "{palettes.neutral.200}",
         "type": "color"
+      }
+    }
+  },
+  "text-input": {
+    "sm": {
+      "px": {
+        "value": "{padding.px-4}",
+        "type": "spacing",
+        "description": "x-padding for small buttons"
+      },
+      "py": {
+        "value": "{padding.px-2}",
+        "type": "spacing",
+        "description": "y-padding for small buttons"
+      },
+      "item-spacing": {
+        "value": "{spacing.2}",
+        "type": "spacing",
+        "description": "spacing between items"
+      }
+    },
+    "md": {
+      "pl": {
+        "value": "{padding.px-4}",
+        "type": "spacing",
+        "description": "Padding-left"
+      },
+      "pr": {
+        "value": "{padding.px-2ᐧ5}",
+        "type": "spacing",
+        "description": "Padding-right"
+      },
+      "py": {
+        "value": "{padding.px-2ᐧ5}",
+        "type": "spacing",
+        "description": "y-padding for medium buttons"
+      },
+      "item-spacing": {
+        "value": "{spacing.2}",
+        "type": "spacing",
+        "description": "spacing between items"
+      }
+    },
+    "lg": {
+      "px": {
+        "value": "{padding.px-5}",
+        "type": "spacing",
+        "description": "x-padding for large buttons"
+      },
+      "py": {
+        "value": "{padding.px-3}",
+        "type": "spacing",
+        "description": "y-padding for large buttons"
+      },
+      "item-spacing": {
+        "value": "{spacing.2}",
+        "type": "spacing"
       }
     }
   }

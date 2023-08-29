@@ -85,11 +85,11 @@
     },
     "selectedTokenSets": {
       "catalyst": "enabled",
-      "tailwind (utilities)": "enabled",
-      "tailwind (config)": "enabled",
-      "key variables": "enabled",
       "button": "enabled",
-      "icon button": "enabled"
+      "keyVariables": "enabled",
+      "tailwindConfig": "enabled",
+      "tailwindUtilities": "enabled",
+      "iconButton": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:59:1058",
     "$figmaModeId": "59:6",

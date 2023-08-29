@@ -188,13 +188,27 @@
             "type": "mix",
             "value": "0.04",
             "space": "lch",
-            "color": "{palettes.primary.1000}"
+            "color": "{palettes.neutral.1000}"
           }
         }
       }
     },
     "tint-medium": {
       "value": "{palettes.neutral.50}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.neutral.1000}"
+          }
+        }
+      }
+    },
+    "outline": {
+      "value": "{palettes.neutral.500}",
       "type": "color",
       "$extensions": {
         "studio.tokens": {
@@ -210,7 +224,7 @@
   },
   "on-surface": {
     "default": {
-      "value": "{palettes.neutral.600}",
+      "value": "{palettes.neutral.700}",
       "type": "color"
     },
     "tint-low": {
@@ -222,7 +236,7 @@
             "type": "mix",
             "value": "0.08",
             "space": "lch",
-            "color": "{palettes.primary.1000}"
+            "color": "{palettes.neutral.1000}"
           }
         }
       }
@@ -236,7 +250,69 @@
             "type": "mix",
             "value": "0.16",
             "space": "lch",
-            "color": "{palettes.primary.1000}"
+            "color": "{palettes.neutral.1000} "
+          }
+        }
+      }
+    },
+    "highlight-low": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.16",
+            "space": "lch",
+            "color": "{palettes.neutral.0} "
+          }
+        }
+      }
+    },
+    "highlight-medium": {
+      "value": "{on-surface.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.32",
+            "space": "lch",
+            "color": "{palettes.neutral.0} "
+          }
+        }
+      }
+    }
+  },
+  "surface-container": {
+    "default": {
+      "value": "{palettes.neutral.0}",
+      "type": "color"
+    },
+    "tint-low": {
+      "value": "{surface-container.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.04",
+            "space": "lch",
+            "color": "{palettes.neutral.1000}"
+          }
+        }
+      }
+    },
+    "tint-medium": {
+      "value": "{surface-container.default}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{palettes.neutral.1000}"
           }
         }
       }
