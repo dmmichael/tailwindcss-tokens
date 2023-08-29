@@ -1,11 +1,11 @@
 {
   "tokenSetOrder": [
-    "keyVariables",
-    "tailwindConfig",
-    "tailwindUtilities",
+    "key-variables",
+    "tailwind-config",
+    "tailwind-utilities",
     "catalyst",
     "button",
-    "iconButton",
-    "textInput"
+    "icon-button",
+    "text-input"
   ]
 }
